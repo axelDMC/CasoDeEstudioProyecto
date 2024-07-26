@@ -18,3 +18,9 @@ def calcular_correlacion_pearson(df):
     plt.title('Matriz de Correlación de Pearson')
     plt.show()
     return correlacion_pearson
+
+
+# exploracionDx.py
+def graficar_pairplot(df):
+    sns.pairplot(df)
+    plt.show()
