@@ -5,4 +5,5 @@ from exploracionDx import calcular_correlacion_pearson
 
 df = pd.read_csv('diabetes.csv')
 df = eliminar_columnas_nulas(df)
+df = eliminar_filas_nulas(df)
 calcular_correlacion_pearson(df)
